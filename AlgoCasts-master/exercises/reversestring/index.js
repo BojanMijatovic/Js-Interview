@@ -19,7 +19,9 @@ function reverse(str) {
   // return reverseStr;
 
   //  Solution 3 Reduce
-  return str.split('').reduce((total, current) => current + total);
+  // return str.split('').reduce((total, current) => current + total);
+
+  return str.split('').reverse().join('');
 }
 
 
